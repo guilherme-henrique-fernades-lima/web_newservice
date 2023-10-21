@@ -49,16 +49,6 @@ import bgImage from "assets/images/bg-presentation.jpg";
 function Presentation() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
-        }}
-        sticky
-      />
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -111,11 +101,7 @@ function Presentation() {
       >
         <Counters />
         <Information />
-        <DesignBlocks />
-        <Pages />
-        <Container sx={{ mt: 6 }}>
-          <BuiltByDevelopers />
-        </Container>
+        
         <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
@@ -160,8 +146,7 @@ function Presentation() {
             </Grid>
           </Grid>
         </Container>
-        <Testimonials />
-        <Download />
+        
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
@@ -213,6 +198,7 @@ function Presentation() {
               </Grid>
             </Grid>
           </Container>
+
         </MKBox>
       </Card>
       <MKBox pt={6} px={1} mt={6}>
