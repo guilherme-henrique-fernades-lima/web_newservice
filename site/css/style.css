@@ -20180,4 +20180,13 @@ disabled look for disabled choices in the results dropdown
 	max-height: 100%; /* Garante que a imagem se ajuste à altura do contêiner */
 	width: auto; /* Mantém a proporção original da imagem */
   }
+
   
+.whatsapp-icon {
+display: inline-block;
+background: green; /* Cor de fundo do ícone do WhatsApp */
+color: white; /* Cor do texto do ícone do WhatsApp */
+padding: 5px; /* Espaçamento interno */
+border-radius: 5px; /* Borda arredondada */
+margin-right: 5px; /* Espaçamento à direita do ícone */
+}
